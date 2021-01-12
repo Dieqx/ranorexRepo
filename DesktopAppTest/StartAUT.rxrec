@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="39cc1d86-8980-4b18-8690-62ca680cd875"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="DesktopAppTest">
+	</codegen>
+	<variables>
+		<var
+		id="c4a3d564-3a38-4825-aa10-2df5a0536792"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Windows\System32\mspaint.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="7afb4d57-a154-4749-8a7b-9896e357d83c"
+	name="DesktopAppTestRepository"
+	relativepath="DesktopAppTestRepository.rxrep">
+		<codegen
+		classname="DesktopAppTestRepository"
+		namespace="DesktopAppTest">
+		</codegen>
+		<rootfolder
+		id="c770f77b-b046-4126-ba9a-6d4f1f85890d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

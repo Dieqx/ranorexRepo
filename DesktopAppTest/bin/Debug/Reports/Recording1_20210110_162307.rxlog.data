@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.47s"
+		durationms="9474"
+		type="root"
+		rid="16d7171d49ecc0b9"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Kuba"
+		rxversion="9.3.4.0"
+		host="RYZEN5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="1/10/2021 4:23:10 PM"
+		timestampiso="2021-01-10T15:23:10"
+		endtime="1/10/2021 4:23:20 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.632"
+			timeRelativeToTestModuleStartTime="00:05.632"
+			timeWallClock="16:23:16"
+			time="00:05.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UntitledPaint.Triangle' at 8;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Untitled - Paint']/element[3]//container[@accessiblename='Lower Ribbon']/?/?/container[@accessiblename='Home']/toolbar[@accessiblename='Shapes']/container[@accessiblename='Shapes']/list[@accessiblename='Shapes']/?/?/listitem[@accessiblename='Triangle']"
+				itempath="element[3]//container[@accessiblename='Lower Ribbon']/?/?/container[@accessiblename='Home']/toolbar[@accessiblename='Shapes']/container[@accessiblename='Shapes']/list[@accessiblename='Shapes']/?/?/listitem[@accessiblename='Triangle']"
+				fullname="DesktopAppTestRepository.UntitledPaint.Triangle"
+				id="02871e6f41cd4e05b5c48d5a2ea27161"
+				timeout="60000"
+				codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.966"
+			timeRelativeToTestModuleStartTime="00:06.966"
+			timeWallClock="16:23:17"
+			time="00:06.966"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'UntitledPaint.Afx00007FF6543500008' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+				itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+				fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+				id="5fe9f1b11fc4468aaae75ab1279a002e"
+				timeout="60000"
+				codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.238"
+			timeRelativeToTestModuleStartTime="00:08.238"
+			timeWallClock="16:23:18"
+			time="00:08.238"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'UntitledPaint.Afx00007FF6543500008' at 482;413.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+				itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+				fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+				id="5fe9f1b11fc4468aaae75ab1279a002e"
+				timeout="60000"
+				codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\Recording1.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

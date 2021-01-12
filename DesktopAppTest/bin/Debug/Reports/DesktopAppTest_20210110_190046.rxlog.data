@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.3s"
+		durationms="35300"
+		type="root"
+		rid="27aa3292b1efb10"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Kuba"
+		rxversion="9.3.4.0"
+		host="RYZEN5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="1/10/2021 7:00:46 PM"
+		timestampiso="2021-01-10T18:00:46"
+		endtime="1/10/2021 7:01:22 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="26.34s"
+			durationms="26336"
+			type="test-suite"
+			rid="184ec7a381ee2b08"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="DesktopAppTest"
+			headertext="DesktopAppTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="26.31s"
+				durationms="26312"
+				type="test-case"
+				rid="d507d37763f6b09"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="c5708ff9-d14a-4e17-a3a3-fc40b446ad52"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="485ms"
+					durationms="485"
+					type="setup-container"
+					rid="34ded9fbe0e6e30"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="469ms"
+						durationms="469"
+						type="test-module"
+						rid="28c123d2ce3358de"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="39cc1d86-8980-4b18-8690-62ca680cd875"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.052"
+							timeRelativeToTestModuleStartTime="00:00.008"
+							timeWallClock="19:00:55"
+							time="00:00.052"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.100"
+							timeRelativeToTestModuleStartTime="00:00.057"
+							timeWallClock="19:00:55"
+							time="00:00.100"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Windows\System32\mspaint.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\StartAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="25.69s"
+					durationms="25686"
+					type="test-module"
+					rid="1eaa88d620d006cc"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="PerformTest"
+					displayName="PerformTest"
+					moduleid="447beac7-11be-4d1c-a976-60f2161b3612"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not contain the specified image.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.519"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="19:00:56"
+						time="00:00.519"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'UntitledPaint.Triangle' at 8;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/container[@name='UIRibbonDockTop']/container[@name='Ribbon']//container[@classname='NetUIHWND']/container[@name='Lower Ribbon']//toolbar[@name='Shapes']/?/?/list[@name='Shapes']/?/?/listitem[@name='Triangle']"
+							itempath="container[@name='UIRibbonDockTop']/container[@name='Ribbon']//container[@classname='NetUIHWND']/container[@name='Lower Ribbon']//toolbar[@name='Shapes']/?/?/list[@name='Shapes']/?/?/listitem[@name='Triangle']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Triangle"
+							id="766cc15537124c42acb349f6d6ac7880"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="62"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.716"
+						timeRelativeToTestModuleStartTime="00:23.200"
+						timeWallClock="19:01:19"
+						time="00:23.716"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'UntitledPaint.Afx00007FF6543500008' at 265;80.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							itempath="element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="67"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.118"
+						timeRelativeToTestModuleStartTime="00:23.602"
+						timeWallClock="19:01:19"
+						time="00:24.118"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'UntitledPaint.Afx00007FF6543500008' at 13;436.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							itempath="element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="73"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.528"
+						timeRelativeToTestModuleStartTime="00:24.012"
+						timeWallClock="19:01:20"
+						time="00:24.528"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'UntitledPaint.Afx00007FF6543500008' at 420;82.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							itempath="element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="78"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.939"
+						timeRelativeToTestModuleStartTime="00:24.423"
+						timeWallClock="19:01:20"
+						time="00:24.939"
+						level="Info"
+						category="Mouse"
+						errimg="images_DesktopA_537b7e1d\DesktopA_537b7e1d_5651f350_trace.jpg"
+						errthumb="images_DesktopA_537b7e1d\DesktopA_537b7e1d_5651f350_trace_thumb.jpg">
+						<message>
+							Mouse Left Up item 'UntitledPaint.Afx00007FF6543500008' at 752;455.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							itempath="element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="83"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.052"
+						timeRelativeToTestModuleStartTime="00:25.536"
+						timeWallClock="19:01:21"
+						time="00:26.052"
+						level="Failure"
+						category="Validation"
+						errimg="images_DesktopA_537b7e1d\DesktopA_537b7e1d_86d4acd5_trace.jpg"
+						errthumb="images_DesktopA_537b7e1d\DesktopA_537b7e1d_86d4acd5_trace_thumb.jpg">
+						<message>
+							Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not contain the specified image.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="95"
+							loglvl="Failure"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.098"
+						timeRelativeToTestModuleStartTime="00:25.582"
+						timeWallClock="19:01:21"
+						time="00:26.098"
+						level="Failure"
+						category="Expected image"
+						errimg="images_DesktopA_537b7e1d\DesktopA_5dc8d169_rxlog.png"
+						errthumb="images_DesktopA_537b7e1d\DesktopA_5dc8d169_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							fullSizeImage="true"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="95"
+							loglvl="Failure"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.115"
+						timeRelativeToTestModuleStartTime="00:25.599"
+						timeWallClock="19:01:21"
+						time="00:26.115"
+						level="Failure"
+						category="Actual image"
+						errimg="images_DesktopA_537b7e1d\DesktopA_e92dd169_rxlog.png"
+						errthumb="images_DesktopA_537b7e1d\DesktopA_e92dd169_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							fullSizeImage="true"
+							replaceImage="true"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="95"
+							loglvl="Failure"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.125"
+						timeRelativeToTestModuleStartTime="00:25.609"
+						timeWallClock="19:01:21"
+						time="00:26.125"
+						level="Error"
+						category="Module"
+						errimg="images_DesktopA_537b7e1d\DesktopA_537b7e1d_684cfde7_trace.jpg"
+						errthumb="images_DesktopA_537b7e1d\DesktopA_537b7e1d_684cfde7_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not contain the specified image.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at DesktopAppTest.PerformTest.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="95"
+							loglvl="Error"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/element[@controlid='59648']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="130ms"
+					durationms="130"
+					type="teardown-container"
+					rid="1dc748b04c72658"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="128ms"
+						durationms="128"
+						type="test-module"
+						rid="1eba563411555690"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseAUT"
+						displayName="CloseAUT"
+						moduleid="f5d738c3-99c8-4382-8a15-97daa20136ad"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="CloseAutProcessIDVar"
+								value="9820">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.205"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="19:01:22"
+							time="00:26.205"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CloseAutProcessIDVar = '9820'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.241"
+							timeRelativeToTestModuleStartTime="00:00.035"
+							timeWallClock="19:01:22"
+							time="00:26.241"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\CloseAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

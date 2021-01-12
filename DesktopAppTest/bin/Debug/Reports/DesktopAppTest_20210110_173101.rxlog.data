@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.9m"
+		durationms="173789"
+		type="root"
+		rid="1ab2428087aa12ca"
+		totalerrorcount="1"
+		totalwarningcount="5"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Kuba"
+		rxversion="9.3.4.0"
+		host="RYZEN5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="1/10/2021 5:31:01 PM"
+		timestampiso="2021-01-10T16:31:01"
+		endtime="1/10/2021 5:33:55 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.2m"
+			durationms="69455"
+			type="test-suite"
+			rid="e47483816305cd0"
+			totalerrorcount="1"
+			totalwarningcount="5"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="DesktopAppTest"
+			headertext="DesktopAppTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.2m"
+				durationms="69426"
+				type="test-case"
+				rid="1aee2b930a546680"
+				totalerrorcount="1"
+				totalwarningcount="5"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="c5708ff9-d14a-4e17-a3a3-fc40b446ad52"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="533ms"
+					durationms="533"
+					type="setup-container"
+					rid="aee1e54e0249dd0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="516ms"
+						durationms="516"
+						type="test-module"
+						rid="1506937900218530"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="39cc1d86-8980-4b18-8690-62ca680cd875"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.052"
+							timeRelativeToTestModuleStartTime="00:00.007"
+							timeWallClock="17:32:45"
+							time="00:00.052"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.114"
+							timeRelativeToTestModuleStartTime="00:00.069"
+							timeWallClock="17:32:45"
+							time="00:00.114"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Windows\System32\mspaint.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\StartAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="68794"
+					type="test-module"
+					rid="711fca530e29c56"
+					totalerrorcount="1"
+					totalwarningcount="5"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="PerformTest"
+					displayName="PerformTest"
+					moduleid="447beac7-11be-4d1c-a976-60f2161b3612"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not match the specified image.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.568"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="17:32:46"
+						time="00:00.568"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'UntitledPaint.Triangle' at 8;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/container[@name='UIRibbonDockTop']/container[@name='Ribbon']//container[@classname='NetUIHWND']/container[@name='Lower Ribbon']//toolbar[@name='Shapes']/?/?/list[@name='Shapes']/?/?/listitem[@name='Triangle']"
+							itempath="container[@name='UIRibbonDockTop']/container[@name='Ribbon']//container[@classname='NetUIHWND']/container[@name='Lower Ribbon']//toolbar[@name='Shapes']/?/?/list[@name='Shapes']/?/?/listitem[@name='Triangle']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Triangle"
+							id="766cc15537124c42acb349f6d6ac7880"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="61"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.792"
+						timeRelativeToTestModuleStartTime="00:18.226"
+						timeWallClock="17:33:04"
+						time="00:18.792"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'UntitledPaint.Afx00007FF6543500008' at 265;80.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="65"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.283"
+						timeRelativeToTestModuleStartTime="00:48.717"
+						timeWallClock="17:33:35"
+						time="00:49.283"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'DesktopAppTestRepository.UntitledPaint'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="66"
+							loglvl="Warn"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.635"
+						timeRelativeToTestModuleStartTime="00:49.069"
+						timeWallClock="17:33:35"
+						time="00:49.635"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'UntitledPaint.Afx00007FF6543500008' at 13;436.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="70"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:03.445"
+						timeRelativeToTestModuleStartTime="01:02.879"
+						timeWallClock="17:33:49"
+						time="01:03.445"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'DesktopAppTestRepository.UntitledPaint'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="71"
+							loglvl="Warn"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:03.797"
+						timeRelativeToTestModuleStartTime="01:03.231"
+						timeWallClock="17:33:49"
+						time="01:03.797"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'UntitledPaint.Afx00007FF6543500008' at 420;82.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="75"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:06.676"
+						timeRelativeToTestModuleStartTime="01:06.110"
+						timeWallClock="17:33:52"
+						time="01:06.676"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'DesktopAppTestRepository.UntitledPaint'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="76"
+							loglvl="Warn"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:07.029"
+						timeRelativeToTestModuleStartTime="01:06.463"
+						timeWallClock="17:33:52"
+						time="01:07.029"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'UntitledPaint.Afx00007FF6543500008' at 752;455.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							itempath="?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							timeout="60000"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="80"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:07.698"
+						timeRelativeToTestModuleStartTime="01:07.132"
+						timeWallClock="17:33:53"
+						time="01:07.698"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'DesktopAppTestRepository.UntitledPaint'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="81"
+							loglvl="Warn"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.952"
+						timeRelativeToTestModuleStartTime="01:08.386"
+						timeWallClock="17:33:54"
+						time="01:08.952"
+						level="Warn"
+						category="Repository"
+						errimg="images_DesktopA_3b8c0986\DesktopA_3b8c0986_26cd0d1d_trace.jpg"
+						errthumb="images_DesktopA_3b8c0986\DesktopA_3b8c0986_26cd0d1d_trace_thumb.jpg">
+						<message>
+							Item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'DesktopAppTestRepository.UntitledPaint'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="85"
+							loglvl="Warn"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.204"
+						timeRelativeToTestModuleStartTime="01:08.638"
+						timeWallClock="17:33:55"
+						time="01:09.204"
+						level="Failure"
+						category="Validation"
+						errimg="images_DesktopA_3b8c0986\DesktopA_3b8c0986_9ad7c2ef_trace.jpg"
+						errthumb="images_DesktopA_3b8c0986\DesktopA_3b8c0986_9ad7c2ef_trace_thumb.jpg">
+						<message>
+							Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not match the specified image.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="85"
+							loglvl="Failure"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.258"
+						timeRelativeToTestModuleStartTime="01:08.692"
+						timeWallClock="17:33:55"
+						time="01:09.258"
+						level="Failure"
+						category="Expected image"
+						errimg="images_DesktopA_3b8c0986\DesktopA_7c19b2a8_rxlog.png"
+						errthumb="images_DesktopA_3b8c0986\DesktopA_7c19b2a8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							fullSizeImage="true"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="85"
+							loglvl="Failure"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.272"
+						timeRelativeToTestModuleStartTime="01:08.706"
+						timeWallClock="17:33:55"
+						time="01:09.272"
+						level="Failure"
+						category="Actual image"
+						errimg="images_DesktopA_3b8c0986\DesktopA_f0b4b2a8_rxlog.png"
+						errthumb="images_DesktopA_3b8c0986\DesktopA_f0b4b2a8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							fullSizeImage="true"
+							replaceImage="true"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="85"
+							loglvl="Failure"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.283"
+						timeRelativeToTestModuleStartTime="01:08.717"
+						timeWallClock="17:33:55"
+						time="01:09.283"
+						level="Error"
+						category="Module"
+						errimg="images_DesktopA_3b8c0986\DesktopA_3b8c0986_02cca5a5_trace.jpg"
+						errthumb="images_DesktopA_3b8c0986\DesktopA_3b8c0986_02cca5a5_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Screenshot of item 'DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008' does not match the specified image.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at DesktopAppTest.PerformTest.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs:line 85
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\PerformTest.cs"
+							codeline="85"
+							loglvl="Error"
+							id="8bb6ad15ae09491cbc797f6b924a1525"
+							path="/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF654350000:8']"
+							fullname="DesktopAppTestRepository.UntitledPaint.Afx00007FF6543500008"
+							itemindex="4">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="90ms"
+					durationms="90"
+					type="teardown-container"
+					rid="1d445989034b866f"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="86ms"
+						durationms="86"
+						type="test-module"
+						rid="1b46829c9ebedb24"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseAUT"
+						displayName="CloseAUT"
+						moduleid="f5d738c3-99c8-4382-8a15-97daa20136ad"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="CloseAutProcessIDVar"
+								value="10336">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:09.365"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="17:33:55"
+							time="01:09.365"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CloseAutProcessIDVar = '10336'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:09.384"
+							timeRelativeToTestModuleStartTime="00:00.020"
+							timeWallClock="17:33:55"
+							time="01:09.384"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Kuba\Documents\Ranorex\RanorexStudio Projects\DesktopAppTest\DesktopAppTest\CloseAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

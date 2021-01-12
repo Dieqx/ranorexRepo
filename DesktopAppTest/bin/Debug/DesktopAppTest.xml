@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesktopAppTest</name>
+    </assembly>
+    <members>
+        <member name="T:DesktopAppTest.APITest">
+            <summary>
+            Description of APITEst.
+            </summary>
+            
+        </member>
+        <member name="T:DesktopAppTest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:DesktopAppTest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the DesktopAppTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DesktopAppTest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DesktopAppTest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.DesktopAppTestRepository">
+            <summary>
+            The class representing the DesktopAppTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DesktopAppTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepository.UntitledPaint">
+            <summary>
+            The UntitledPaint folder.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.DesktopAppTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder">
+            <summary>
+            The UntitledPaintAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UntitledPaint  folder.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass">
+            <summary>
+            The Afx00007FF6543500008InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Afx00007FF6543500008InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass.GetpicToCompare1">
+            <summary>
+            Gets the picToCompare1 item image.
+            </summary>
+            <returns>The picToCompare1 image.</returns>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass.GetpicToCompare1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the picToCompare1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008">
+            <summary>
+            The Afx00007FF6543500008 item.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Afx00007FF6543500008Info">
+            <summary>
+            The Afx00007FF6543500008 item info.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Triangle">
+            <summary>
+            The Triangle item.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.TriangleInfo">
+            <summary>
+            The Triangle item info.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Copy_of_Triangle">
+            <summary>
+            The Copy_of_Triangle item.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.DesktopAppTestRepositoryFolders.UntitledPaintAppFolder.Copy_of_TriangleInfo">
+            <summary>
+            The Copy_of_Triangle item info.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.PerformTest">
+            <summary>
+            Description of PerformTest.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.PerformTest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.PerformTest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:DesktopAppTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:DesktopAppTest.Recording1.repo">
+            <summary>
+            Holds an instance of the DesktopAppTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DesktopAppTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DesktopAppTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:DesktopAppTest.Recording2.repo">
+            <summary>
+            Holds an instance of the DesktopAppTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DesktopAppTest.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:DesktopAppTest.Recording2.Afx00007FF6543500008_picToCompare1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.Recording2.Afx00007FF6543500008_picToCompare1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:DesktopAppTest.StartAUT.repo">
+            <summary>
+            Holds an instance of the DesktopAppTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DesktopAppTest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DesktopAppTest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DesktopAppTest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DesktopAppTest.UserCodeModule2">
+            <summary>
+            Description of UserCodeModule2.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.UserCodeModule2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DesktopAppTest.UserCodeModule2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
